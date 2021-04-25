@@ -76,7 +76,7 @@ function time() {
     if (hour9 === thisHour) {
        $("#thistext9").addClass("present");
     } else if (hour9 > thisHour) {
-        $("#thistext9").addClass("past");
+        $("#thistext9").addClass("future");
     } else {
         $("#thistext9").addClass("past")
     }
