@@ -18,7 +18,7 @@ body {
     background-color: transparent;
     color: black;
     border-radius: 0;
-    /*border-bottom: 10px solid black;*/
+    border-bottom: 10px solid black;
   }
   
   .line {
@@ -35,13 +35,11 @@ body {
   }
   
   .row {
-    white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;;
   }
   
   .hour {
-    margin-top: 15px;
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
@@ -68,10 +66,15 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
+    height: 60px;
+    padding-bottom: 3.2%;
   }
   
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
-  
+
+  .hour p {
+    margin-top: 25px;
+  }
